@@ -1,6 +1,3 @@
-# tisim
-traffic intersection simulation 
-
 you need to download the images folder and simulation.py
 
 verify python on machine using command:
