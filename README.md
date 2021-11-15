@@ -16,3 +16,6 @@ if python is not installed, install from here: https://www.python.org/downloads/
 install pygame with command: pip install pygame
 
 run simulation with command: python simulation.py
+
+profiling can be done with commands: "python -m cProfile simulation.py"
+can sort profile by cumulative/name/time/file with -s flag i.e. "python -m cProfile -s time simulation.py"
