@@ -83,7 +83,7 @@ class Vehicle(pygame.sprite.Sprite):
         vehicles[direction][lane].append(self)
         self.index = len(vehicles[direction][lane]) - 1
         self.crossedIndex = 0
-        path = "images/" + direction + "/" + vehicleClass + "_" + direction + ".png"
+        path = "images/" + direction + "/" + vehicleClass + "_" + direction + ".png" #set image path here
         self.originalImage = pygame.image.load(path)
         self.image = pygame.image.load(path)
 
